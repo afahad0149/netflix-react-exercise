@@ -39,6 +39,8 @@ Follow best practices such as commenting your code, committing often and being m
     - Clicking the button adds / removes the movie from “My List” and switches the button between the “plus” and the “tick” sign (you find the required images in the `./assets` folder).
     - The logic of this behavior should neither be in the movie render component nor in the movie list component.
 
+**Note**: remember that when the API returns an image path, you can access that image by prepending `https://image.tmdb.org/t/p/w300/` to it.
+
 ## Extra credits
 
 - Add another section of movies (e.g. “Action” movies). Keep in mind that when a movie is added to “My List” from any section, its “Add to my list” button should be updated in all lists at the same time.
