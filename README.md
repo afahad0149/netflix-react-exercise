@@ -6,9 +6,9 @@ In this exercise you continue the journey into the art of movie apps. You need t
 
 ## What to expect
 
-React is a component-based framework for building user interfaces. Explore how it is much more lightweight than Angular. It still requires you to learn JSX and consider how React's virtual DOM.
+React is a component-based library for building user interfaces. Explore how it is much more lightweight than Angular. It still requires you to learn JSX and consider how React's virtual DOM.
 
-You will be using JavaScript's experimental [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) API.
+You will be using JavaScript's [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) API.
 
 ## Learning objectives
 
