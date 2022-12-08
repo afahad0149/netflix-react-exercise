@@ -32,12 +32,13 @@ To install the required dependencies, run `npm install` from the project folder.
 Follow best practices such as commenting your code, committing often and being mindful of indentation. Make sure to lint your code before committing, as this will help your work look professional.
 
 1. Use the React CLI to set-up the client folder, running `npx create-react-app client`. Then from the newly created folder launch your app with `npm start`.
-2. Build a “Discover” section, rendering the list of movies provided at `https://movied.herokuapp.com/discover`.
+2. Build a “Discover” section, rendering the list of movies provided at `http://cw-api.eu-west-3.elasticbeanstalk.com/movied/discover`.
 3. Build a “My List” section, where users can add and remove movies.
     - If the section is empty, don’t show it.
     - Every movie has an “Add to My List” button, which appears only on mouse hover.
     - Clicking the button adds / removes the movie from “My List” and switches the button between the “plus” and the “tick” sign (you find the required images in the `./assets` folder).
     - The logic of this behavior should neither be in the movie render component nor in the movie list component.
+4. Add a couple of unit tests for your app.
 
 **Note**: remember that when the API returns an image path, you can access that image by prepending `https://image.tmdb.org/t/p/w300/` to it.
 

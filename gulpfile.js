@@ -11,7 +11,8 @@ function addDefSrcIgnore (srcArr) {
     '!private{,/**}',
     '!dist{,/**}',
     '!.git{,/**}',
-    '!**/.DS_Store'
+    '!**/.DS_Store',
+    '!**/.circleci{,/**}'
   ]);
 }
 
